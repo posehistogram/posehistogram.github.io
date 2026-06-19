@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modular Framework</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Towards a Modular Bin-picking Framework for Handling Object Pose Uncertainties</h1>
+    </header>
+
+    <main>
+
+
+        <section class="description">
+            <h2>Project Overview</h2>
+            <p>
+            In recent years, there has been growing interest in robust robotic systems for precise bin-picking applications. To achieve reliable performance, such systems must address errors arising from both the object pose estimation and the grasping process. Although various approaches have been proposed, they typically target specific challenges and do not offer general solutions. In this paper, we present a modular framework that jointly handles both types of errors. The framework incorporates object pose distribution estimation to account for pose uncertainty, which frequently arises in situations with ambiguous observations where a single correct pose cannot be determined. To further reduce uncertainty, we introduce a second-viewpoint module that computes complementary pose distributions, which are subsequently fused. This fusion decreases overall uncertainty and improves system efficiency. Additionally, two independent modules are included to compensate for grasping errors. The modular design allows the components to be combined for optimal performance or used individually, depending on the physical setup.
+            </p>
+            <p>
+            The proposed method is evaluated in a real-world setup with three different objects, achieving zero failures and demonstrating improved system efficiency when the additional modules are employed. These results suggest that incorporating pose distributions with grasping pose errors is a promising direction for developing more flexible and reliable robotic production systems.  
+            </p>
+            <p>
+            To the best of our knowledge, this is the first framework that jointly addresses both grasping and object pose uncertainties using interchangeable modules. We believe that there is ample opportunity to  integrate more modules, which will result in increased performance and flexibility. The current framework is limited to pose uncertainties in SO(2), but it could be expanded to SE(3), allowing for further modules to improve the system.
+            </p>
+        </section>
+
+
+        
+        <section class="funding">
+            <h2>Funding</h2>
+            <p>
+                This work is supported by Fabrikant Vilhelm Pedersen og Hustrus Legat.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Research Project</p>
+    </footer>
+</body>
+</html>
